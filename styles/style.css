@@ -60,7 +60,7 @@ ul li a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #FEEAE9;
+  background-color: #feeae9;
   padding: 40px 46px;
   border-radius: 30px;
 }
@@ -70,7 +70,7 @@ ul li a {
   margin-bottom: 0px;
 }
 .banner-description {
-  color: #4E4E4E;
+  color: #4e4e4e;
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
@@ -81,13 +81,13 @@ ul li a {
 .banner-price {
   font-size: 40px;
   font-weight: 600;
-  color: #FF136F;
+  color: #ff136f;
   margin-top: 20px;
   margin-bottom: 0px;
 }
 .buy {
   border: none;
-  background-color: #FF136F;
+  background-color: #ff136f;
   color: white;
   font-size: 18px;
   font-weight: 500;
@@ -148,11 +148,95 @@ ul li a {
   width: 98px;
 }
 .c1 {
-  background-color: #FF9C35;
+  background-color: #ff9c35;
 }
 .c2 {
-  background-color: #FF589B;
+  background-color: #ff589b;
 }
 .c3 {
-  background-color: #3F07F8;
+  background-color: #3f07f8;
+}
+
+/* Shoes */
+
+.shoes {
+  margin-top: 60px;
+}
+.shoes1-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.shoes-title {
+  font-size: 36px;
+  font-weight: 600;
+}
+.shoes-description {
+  color: #ff9d00;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.shoes-card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.cart-1 {
+  padding: 24px 26px;
+  border-radius: 15px;
+  box-shadow: 0px 1px 2px black;
+}
+
+.cart-1-img {
+  width: 340px;
+  margin: 0 auto;
+}
+.shoes-cart-title {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 22px;
+  margin-bottom: 0px;
+}
+.shoes-cart-description {
+  text-align: center;
+  line-height: 30px;
+  color: #4e4e4e;
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+.shoes-price {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 16px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.now-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.now {
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 16px 30px;
+  margin-top: 0 auto;
+  cursor: pointer;
+  border-radius: 7px;
+}
+.now:hover {
+  transform: scale(1.05);
+  transition-duration: 0.4s;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
 }

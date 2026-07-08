@@ -255,6 +255,7 @@ ul li a {
   max-width: 1400px;
   margin: 0 auto;
   padding: 140px 0px;
+  border-radius: 20px;
 }
 .foot-title {
   text-align: center;

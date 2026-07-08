@@ -240,3 +240,9 @@ ul li a {
   color: black;
   border: 1px solid black;
 }
+
+.cart-2-img {
+  height: 250px;
+  width: 340px;
+  margin: 0 auto;
+}
